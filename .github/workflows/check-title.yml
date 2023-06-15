@@ -17,4 +17,4 @@ jobs:
       - uses: jasonaravanis/ahm-efficiency-bash-title-validator-v2@v1.1.1
         with:
           # Match pull request titles in the form UI-1234 - Message.
-          pattern: '^UI-\d* - '
+          pattern: '^\[(minor|major|patch)]'
