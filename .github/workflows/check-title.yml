@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: dylanvann/check-pull-request-title@v1
+      - uses: dylanvann/check-pull-request-title
         with:
           # Match pull request titles in the form UI-1234 - Message.
           pattern: '^UI-\d* - '
