@@ -4,6 +4,7 @@ on:
     types:
       # Check title when opened.
       - opened
+      - edited
       # Check title when new commits are pushed.
       # Required to use as a status check.
       - synchronize
